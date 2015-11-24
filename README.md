@@ -28,6 +28,10 @@ This repository will serve as an index of my Computer Science education. I decid
 1. [Combining Promises and Generators to Write Elegant Asynchronous Code in JavaScript](http://richardartoul.github.io/javascript/2015/07/16/promises-generators.html) - A blog post that I wrote.
 2. [JavaScript Hidden Classes and Inline Caching in V8](http://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html) - A blog post I wrote that covers how the V8 engine optimizes your code under the hood.
 
+#### Python
+
+1. [Python's Innards: Objects 101](http://tech.blog.aknin.name/2010/05/12/pythons-innards-objects-101/) - Part 1 of a series that explains how Python works under the hood. A little difficult to follow (especially if you're unfamiliar with C or how virtual machines / compilers work), but an eye-opening read.
+
 ### Computer Science
 
 #### Concurrency, Parallelism, Threads, and Multithreading
@@ -51,10 +55,20 @@ This repository will serve as an index of my Computer Science education. I decid
 
 1. What postGRES has over other open source SQL databases [Part 1](https://www.compose.io/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/) [Part 2](https://www.compose.io/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/)
 
+#### Redis
+
+1. [Intro to Redis Data Structures](http://redis.io/topics/data-types-intro) - Reading about the basic data structures that Redis implements is a great way to quickly learn what typeof activities Redis is useful for.
+
 ### Scalability
 
 1. [Introduction to Microservices](https://www.nginx.com/blog/introduction-to-microservices/) - Best introduction to microservices and how they can help you build scalable back-end services that I could find.
 
-#### Authentication and Secuirty
+2. [Amazon CTO on Eventual Consistency](http://www.allthingsdistributed.com/2007/12/eventually_consistent.html) - Concise and articulate explanation of how eventual consistency works. The author also presents different models of eventual consistency, as well as a great mental model that can be used to reason about the topic.
+
+3. [The secret to 10 Million Concurrent Connections - The Kernel is the Problem, Not the Solution](http://highscalability.com/blog/2013/5/13/the-secret-to-10-million-concurrent-connections-the-kernel-i.html) - Going from C10K to C10M
+
+4. [Unyielding](https://glyph.twistedmatrix.com/2014/02/unyielding.html) - Why multi-threading causes such a headache when writing asynchronous servers
+
+#### Authentication and Security
 
 1. [10 Things You Should Know About JSON Web Tokens and Cookies](https://auth0.com/blog/2014/01/27/ten-things-you-should-know-about-tokens-and-cookies/) - Good introduction to the difference between using JWT's vs. Cookies. This website in general has a lot of great resources on JWTs.
